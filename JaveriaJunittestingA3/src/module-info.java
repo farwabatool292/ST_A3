@@ -1,0 +1,2 @@
+module JaveriaJunittestingA3 {
+}
