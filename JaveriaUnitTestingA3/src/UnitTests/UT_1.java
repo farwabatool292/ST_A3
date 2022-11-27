@@ -31,28 +31,40 @@ public class UT_1 {
 	@Test
 public void verifyStoremanagementsectionclick()
 {
+
 		System.out.println("Unit Test Case 1");
 		System.out.println("This test will check the store section page is operating properly in the Store management section ");
+	//when the login button is click after adding the credentials then it will open the store administration page of website 
 		driver.findElement(By.xpath("/html/body/ngx-app/div/ngx-auth/nb-layout/div/div/div/div/div/nb-layout-column/ngx-login/div[1]/div/div/div/form/div[4]/button"));
 		
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
-		
-	
-		
+
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
 		String href="http://localhost:82/#/pages/home";
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
-		
 			
 		
 			driver.navigate().to(href);
 			driver.navigate().forward();
+			driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
 			driver.navigate().refresh();
-			driver.getCurrentUrl();
+//Search the Store Management section from the Home page of Store Adminstration 
+		driver.findElement(By.xpath("/html/body/ngx-app/div/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]/div/div/nb-menu/ul/li[3]/a/span"));
+		// Searching the button of Store and perform click on it which will redirect it to the store page
+		WebElement c1=driver.findElement(By.xpath("/html/body/ngx-app/div/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]/div/div/nb-menu/ul/li[3]/ul/li[1]/a/span"));
+
+driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
+c1.click();
+String href1="http://localhost:82/#/pages/store-management/store";
+driver.navigate().to(href1);
+driver.navigate().forward();
+driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
+driver.navigate().refresh();
+driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
 			
 }
 	@AfterMethod
 	public void teardown()
 	{
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
 		driver.close();
 	}
 }
