@@ -59,6 +59,11 @@ driver.navigate().forward();
 driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
 driver.navigate().refresh();
 driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(15));
+	String newUrl = driver.getCurrentUrl();
+System.out.println(newUrl);
+//matching with the checkout page url
+	Assert.assertEquals(newUrl, "http://localhost:82/#/pages/store-management/store" );
+       System.out.println("URL matched successfully");	
 			
 }
 	@AfterMethod
