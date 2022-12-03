@@ -3,4 +3,12 @@ Static application security testing (SAST) tools automatically scan the source c
 The goal is to identify vulnerabilities before deployment. SAST tools perform white-box testing, which
 involves analyzing the code based on inside knowledge of the application.
 
+2. Benefits:
+SAST offers granularity in detecting vulnerabilities, providing an assessment down to the line of code.
+The are key benefits of SAST tools are: 
+-> Examine the codebase of an application in one test.
+-> Test an application before compiling or running the code.
+-> Identify vulnerabilities early in the software development life cycle (SDLC), which is when vulnerabilities
+are easiest and cheapest to fix.
+
 2. SAST tool for our Project:
