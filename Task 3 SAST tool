@@ -11,4 +11,10 @@ The are key benefits of SAST tools are:
 -> Identify vulnerabilities early in the software development life cycle (SDLC), which is when vulnerabilities
 are easiest and cheapest to fix.
 
-2. SAST tool for our Project:
+3. SAST tool for our Project:
+We choose nessus tool for our JAVA project.
+
+4. What is Nessus tool?
+The Common Vulnerabilities and Exposures architecture is used by Nessus, an open-source network vulnerability scanner,
+to make it simple for compliant security solutions to cross-link with one another. The Nessus Attack Scripting Language (NASL),
+a straightforward language used by Nessus, is used to specify specific threats and potential attacks.
