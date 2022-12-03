@@ -1,1 +1,6 @@
+1. What is SAST?
+Static application security testing (SAST) tools automatically scan the source code of an application.
+The goal is to identify vulnerabilities before deployment. SAST tools perform white-box testing, which
+involves analyzing the code based on inside knowledge of the application.
 
+2. SAST tool for our Project:
