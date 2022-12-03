@@ -1,1 +1,46 @@
 
+Linter:
+Linters are best described as static code analyzers because they check your code before it even runs. They can work inside your IDE, run as part of your build process, or be inserted into your workflow anywhere in between.
+So for java, I use “SonarLint”. Sonar Lint-IntelliJ is an IDE extension that helps you detect and fix quality issues in Java, JavaScript, and Typescript languages.
+Benefits:
+Some of the common advantages of Sonar Lint are as under:
+•	Icatchesch common mistakes, tricky bugs, and security issues.
+•	It can also fix the issues and also give a better solution
+•	It also contains a spell checker.
+•	It performance is on the fly analysis.
+Setup on our project:
+Step: 1
+Firstly important the code of shopizer-master(.zip file) into the eclips by archive folder.
+![image](https://user-images.githubusercontent.com/93051277/205454048-e8eae160-c3e8-494a-bff2-2c7febcf012d.png)
+Step: 2
+Next check the version of java. And in my PC java 1.8 version is present to perform all the tasks 
+![image](https://user-images.githubusercontent.com/93051277/205454068-51f63f9b-b703-4440-989b-740115f5c4ec.png)
+Step: 3
+Next go to the “Help” then Eclipse master place to activate the Linter library for java.
+![image](https://user-images.githubusercontent.com/93051277/205454081-dd7cdccb-a30c-4986-97c2-9e62fbe13baa.png)
+Step: 4
+Write “sonar Lint” in the search bar and install the package.
+![image](https://user-images.githubusercontent.com/93051277/205454102-e774a174-a106-4daf-928f-8490ba518f4a.png)
+Step: 5
+Wait for the software have been done 
+![image](https://user-images.githubusercontent.com/93051277/205454117-87af1f4c-460e-4902-bc7d-24c523d62e1b.png)
+Step: 6
+After installing the package you have to reinstall the computer. 
+![image](https://user-images.githubusercontent.com/93051277/205454132-fde69a43-0809-4168-ba49-1926debbea0c.png)
+Step: 7
+For the conformation Go to the Windows>show View>other.. and search for the SonarLint 
+![image](https://user-images.githubusercontent.com/93051277/205454139-8a54cf88-0040-437b-8543-7e14940049c7.png)
+Step: 8
+You also enable and it on automatic so it become easy for you after set to “Apply and Close” 
+![image](https://user-images.githubusercontent.com/93051277/205454153-3e8e3306-eec1-41ac-916b-c92f92135fec.png)
+Step: 9 
+Right click for the console option to run the linter library. 
+![image](https://user-images.githubusercontent.com/93051277/205454158-1e6123da-62b8-4b3a-a967-c39fae5ccb2b.png)
+Step: 10
+Click on the word that have blue  lines and linter will show the issue what is the main problem 
+![image](https://user-images.githubusercontent.com/93051277/205454175-9cc9dd78-e7e9-455b-9d7e-b7b754276de3.png)
+Here is the issue location if you want to see the total number of issues in the whole file. 
+![image](https://user-images.githubusercontent.com/93051277/205454185-1cf6189e-3cea-4c83-9af8-469195819c2e.png)
+Step: 11 
+For the solution of that issue Go to the Windows>>show View>>others>>SonarLint Description.It will show the exact solution and also the tips to fix that error.  
+![image](https://user-images.githubusercontent.com/93051277/205454198-f3a4db7f-d078-4312-bdfd-c558da3e3cf7.png)
