@@ -20,8 +20,7 @@ to make it simple for compliant security solutions to cross-link with one anothe
 a straightforward language used by Nessus, is used to specify specific threats and potential attacks.
 
 5- Statical Analysis
-Target
-
+Target URL :
 SETUP 
 1-first create a new scan on nessus 
 2-select the web application test 
@@ -36,6 +35,9 @@ PLUGINS
  after that save it and  launch it for scan .
  
 SCAN RESULT:
+to view result OWASP is used.
+In vulnerqability, all the  vulenrabilities existing in web app and its level are identifed.
+
  
 
 
