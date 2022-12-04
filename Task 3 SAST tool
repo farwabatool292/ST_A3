@@ -18,3 +18,24 @@ We choose nessus tool for our JAVA project.
 The Common Vulnerabilities and Exposures architecture is used by Nessus, an open-source network vulnerability scanner,
 to make it simple for compliant security solutions to cross-link with one another. The Nessus Attack Scripting Language (NASL),
 a straightforward language used by Nessus, is used to specify specific threats and potential attacks.
+
+5- Statical Analysis
+Target
+
+SETUP 
+1-first create a new scan on nessus 
+2-select the web application test 
+3-perform  setting of basic.
+4-port setting to commom ports
+
+CREDENTIAL
+ Set authentication method.
+PLUGINS
+ for web application test the  Webservers plugin family is used
+ 
+ after that save it and  launch it for scan .
+ 
+SCAN RESULT:
+ 
+
+
