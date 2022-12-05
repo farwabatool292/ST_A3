@@ -6,9 +6,17 @@ executed manually.This was qite a time consuming task.For this automation has ca
 they help us to automate the test cases and exectue them and generate reports.Now a third wave has struck in the worls of software testing 
 with the advance artifical Intelligence.The overall evaution of application testing is:
 
-Manual testing -> Automation Tools(Eclipse,Appium etc) -> Frameworks(Test-NG,JUnit etc) -> CI/CD -> AI(Third wave)
+Manual testing -> Automation Tools(Eclipse,Katalon studio etc) -> Frameworks(Test-NG,JUnit etc) -> CI/CD(Agile) -> AI(Third wave)
 
+Testing and test automation in particular have "Everything's better with AI" bug.It is obvious that AI will find it's way into test automation 
+in which AI Machine learning, and neural network are the trendy things right now.
 
+What is AI and ML:
+machine Learning us the subset of Artificial Intelligence learning.It is like giving machine ability to learn by itself.
+For example if we search something on googlr and spend sometine in that specific thing.With the help of ML google will understand the users specific
+needs and accordingly show those links and ads to that users.
 
-
-
+why just Test automation is not enough??
+As we have a large number of test auomation tools,test frame works but these are not enough.We are lagging some where in the testing department that's 
+why AI with test automation become our need.The points where we have drawback for only Test Automations are as under:
+1-Redundant test cases:which test pack/case are ideal and have big impact for testing the application
