@@ -27,6 +27,19 @@ why AI with test automation become our need.The points where we have drawback fo
 3- Test independencies
 4- High volum of test data
 Hence all the above points tells that we make some thing extra for the test automation.
+-----------------------------------------------------(How Does Machine Learning Actually Produce Automated Tests? )-----------------------------------------------------
+1. Training: The codebase, application interface, logs, test cases, and even specification documents must all
+be used to train the machine learning model during the training phase.The effectiveness of the algorithm can
+be affected if the training dataset is not sufficiently large.
+
+2. Output / Result generation: The model develops test cases, evaluates existing test cases for code coverage, completeness, and accuracy,
+and even runs tests, depending on the use case. In every situation, a tester must validate and confirm the usability
+of the output produced.
+
+3. Continuous improvement: As a company continues to use the tool frequently, the training data grows, potentially improving the precision
+and efficacy of already trained networks. In other words, the AI system is constantly developing and learning.
+
+For specific applications like UI testing, some solutions offer pre-trained models that are updated by continuous learning, enabling the use of generalised learning in a particular organisation.
 
 -----------------------------------------------------( Integration of AI IN  TEST AUTOMATION FOR APP TESTING  )----------------------------------------------------------
 Below are some of the application of AI in Test Automation which include unit testing ,user interface ,API tesing and also tips for maintaining the test suites.
