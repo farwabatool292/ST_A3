@@ -41,6 +41,12 @@ and efficacy of already trained networks. In other words, the AI system is const
 
 For specific applications like UI testing, some solutions offer pre-trained models that are updated by continuous learning, enabling the use of generalised learning in a particular organisation.
 
+-----------------------------------------------------(AI-Based Test Data Generation )----------------------------------------------------------
+Another possible application for AI models is the creation of test data. Based on trained machine learning models using already-existing production
+datasets to learn, machine learning may readily generate data sets, such as personal profile images and information like age and weight.
+This makes the test data produced, which is perfect for use in software testing, very similar to production data. A Generative Adversarial Network
+is the name of the machine learning model that produces the data (GAN).
+
 -----------------------------------------------------( Integration of AI IN  TEST AUTOMATION FOR APP TESTING  )----------------------------------------------------------
 Below are some of the application of AI in Test Automation which include unit testing ,user interface ,API tesing and also tips for maintaining the test suites.
 
