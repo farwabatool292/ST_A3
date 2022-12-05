@@ -48,15 +48,23 @@ Cons:
 
 2:Automated User Interface Testing:
 
-The AI has helped in Automating the User interface testing.In the Al-based UI TEsting, the tools that are used for test automation,they parse the DOM and all the related code 
+   1-The AI has helped in Automating the User interface testing.In the Al-based UI TEsting, the tools that are used for test automation,they parse the DOM and all the related code 
 to discover the object properties.In addition to that, the image recognition techniques are also used in order to naviagte trhought the whole application and then 
 perform the visual verification of the UI objects and elements to create UI tests.
 
+   2-For bugs identification in the APP UI , the AI related test systems use the appraoch of exploratory testing and create the screenshots of results.
+   3- The layout,color,font and size  of the under test system can also be verified through such systems.
+
 Pros:
+1- flexibilty in the test cases to ignore the minor changes in the UI,resulting in not failure of test cases.becasue the AI models are trained and 
+they can handle such minor variations.
+
+2-increases the code coverage
 
 Cons:
-
-
+The AI based  UI test automations systems are not quite effective for the testing of Mobile applications because 
+a large set of consitions like no. of platforms,versions and browers versions
+which raise the uncertaininty of how these system will handle these conditions.
 
 3:Using AI To Assist In API Testing
 Pros:
