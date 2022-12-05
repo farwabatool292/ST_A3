@@ -28,7 +28,7 @@ why AI with test automation become our need.The points where we have drawback fo
 4- High volum of test data
 Hence all the above points tells that we make some thing extra for the test automation.
 
------------------------------------------------------( AI come to rescue )----------------------------------------------------------
+-----------------------------------------------------( Integration of AI IN  TEST AUTOMATION FOR APP TESTING  )----------------------------------------------------------
 Below are some of the application of AI in Test Automation which include unit testing ,user interface ,API tesing and also tips for maintaining the test suites.
 
 1: Creating and updating unit Tests:
@@ -46,8 +46,14 @@ Cons:
 • Developer have to write the comple logic by himself.
 •Unit test is simple the mirror of code on which they buit they even not guess the intended functionality of the code.
 
-2:Automation User Interface Testing:
+2:Automated User Interface Testing:
+
+The AI has helped in Automating the User interface testing.In the Al-based UI TEsting, the tools that are used for test automation,they parse the DOM and all the related code 
+to discover the object properties.In addition to that, the image recognition techniques are also used in order to naviagte trhought the whole application and then 
+perform the visual verification of the UI objects and elements to create UI tests.
+
 Pros:
+
 Cons:
 
 
