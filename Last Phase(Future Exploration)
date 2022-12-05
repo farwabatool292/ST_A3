@@ -1,12 +1,16 @@
                                                      ** Topic: AI based Test Automation for application testing **
 
 Introduction:
-Application/software testing have evolved a lot in decades.In Earlier ,there was only manual testing where each and every step was written and 
-executed manually.This was qite a time consuming task.For this automation has came in the form of different paid and open source tools.
+Application/software testing have evolved a lot in decades.In Earlier ,there was only manual testing where each and every step was written
+and executed manually.This was qite a time consuming task.For this automation has came in the form of different paid and open source tools.
 they help us to automate the test cases and exectue them and generate reports.Now a third wave has struck in the worls of software testing 
 with the advance artifical Intelligence.The overall evaution of application testing is:
 
-Manual testing -> Automation Tools(Eclipse,Katalon studio etc) -> Frameworks(Test-NG,JUnit etc) -> CI/CD(Agile) -> AI(Third wave)
+Manual testing
+-> Automation Tools(Eclipse,Katalon studio etc)
+-> Frameworks(Test-NG,JUnit etc) 
+-> CI/CD(Agile) 
+-> AI(Third wave)
 
 Testing and test automation in particular have "Everything's better with AI" bug.It is obvious that AI will find it's way into test automation 
 in which AI Machine learning, and neural network are the trendy things right now.
