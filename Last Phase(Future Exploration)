@@ -31,7 +31,8 @@ Hence all the above points tells that we make some thing extra for the test auto
 -----------------------------------------------------( Integration of AI IN  TEST AUTOMATION FOR APP TESTING  )----------------------------------------------------------
 Below are some of the application of AI in Test Automation which include unit testing ,user interface ,API tesing and also tips for maintaining the test suites.
 
-1: Creating and updating unit Tests:
+1: Ai based test Automation for Unit Testing:
+
 As unit testing plays a imporatant role in continuous integration/continue delivery(CI/CD).If we see according to the developer prospetive,he spend almost half of
 it project time in maintaing and writing clear application code and the test each unit test case.After unit testing,remaining work will be just integration with other 
 parts.So for automation unit testing creation can be useful.
@@ -56,18 +57,29 @@ perform the visual verification of the UI objects and elements to create UI test
    3- The layout,color,font and size  of the under test system can also be verified through such systems.
 
 Pros:
-1- flexibilty in the test cases to ignore the minor changes in the UI,resulting in not failure of test cases.becasue the AI models are trained and 
-they can handle such minor variations.
+    1- flexibilty in the test cases to ignore the minor changes in the UI,resulting in not failure of test cases.becasue the AI models are trained and 
+     they can handle such minor variations.
 
-2-increases the code coverage
+    2-increases the code coverage
 
 Cons:
+
 The AI based  UI test automations systems are not quite effective for the testing of Mobile applications because 
 a large set of consitions like no. of platforms,versions and browers versions
 which raise the uncertaininty of how these system will handle these conditions.
 
-3:Using AI To Assist In API Testing
+3:AI based API Test Automation
+
+As the simple API Test Automations tools records the API activities and traffice in order to analyze and create tests . 
+but the modification and updation of theses tests, the testers needs to  get into the details of the REST calls and paramaters.
+
+So the AI based API Test Automation  tools attempts to  elminated this problem by performing the traffic examining ,patterns identifications,in between API calls 
+connections and then grouped them effectively according to the scenario.These tools also used existimgs tests in order to 
+learn about the realtionship between APIs. This help to understand the chnages in Apis,and thus enable them to update  the existin tests or create the new 
+tests according to scenraio.
+
 Pros:
+
 Cons:
 
 -------------------------------------------( Top tools of AI test automation )-------------------------------------------
