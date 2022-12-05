@@ -79,8 +79,13 @@ learn about the realtionship between APIs. This help to understand the chnages i
 tests according to scenraio.
 
 Pros:
+1- reduces the time consumptions needed for the understanding of all the APis related information prior to writing a test case.
+
+2- Make the APi testing of APPlication easy for the beginner level testers.
 
 Cons:
+
+1- These tools with high level capabilities are not available easily. And those whoch are available they have  very basic capapbilities.
 
 -------------------------------------------( Top tools of AI test automation )-------------------------------------------
 1: Applitools
